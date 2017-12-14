@@ -1,0 +1,101 @@
+<! DOCTYPE HTML>
+
+<title></title>
+<head>
+<link type="text/css" rel="stylesheet" 
+href="stylesheet.css">
+
+
+<body>
+<img class="logo" src="logo.PNG">
+
+<div id="header">
+<h3>JavaQuestions.com</h3>
+
+</div>	
+
+<div id="navbar">
+<ul>
+    <li><a class="button" href="">Home<a/><li>
+    <li><a class="button" href="">Java<a/><li>
+    <li><a class="button" href="">Android</a><li>
+</ul>
+
+</div>
+<div class="right">
+<h2>What is overloading and overriding in java?</h2>
+<p1>When we have more than one method with same name in a single class but the arguments are different, then it is called as method overloading.<br>
+
+</br>Overriding concept comes in picture with inheritance when we have two methods with same signature, one in parent class and another in child class. We can use @Override annotation in the child class overridden method to make sure if parent class method is changed, so as child class.
+</p1>
+</div>
+<div class="right">
+<h2>What are Wrapper classes? @</h2>
+<p1>Java wrapper classes are the Object representation of eight primitive types in java. All the wrapper classes in java are immutable and final. <br>
+</br>Java 5 autoboxing and unboxing allows easy conversion between primitive types and their corresponding wrapper classes.
+</p1>
+</div>
+<div>
+<img class="image" src="image.PNG">
+
+</div>
+
+<div class="main">
+
+<h1>What is the difference between JDK and JVM?</h/1>
+<p>
+Java Development Kit (JDK) is for development purpose and JVM is a part of it to execute the java programs.
+
+JDK provides all the tools, executables and binaries required to compile, debug and execute a Java Program. The execution part is handled by JVM to provide machine independence.
+</p>
+
+<h1>What is JVM and is it platform independent?</h/1>
+<p>
+Java Virtual Machine (JVM) is the heart of java programming language. JVM is responsible for converting byte code into machine readable code. JVM is not platform independent, thats why you have different JVM for different operating systems.<br> </br>We can customize JVM with Java Options, such as allocating minimum and maximum memory to JVM. It’s called virtual because it provides an interface that doesn’t depend on the underlying OS.
+<p>
+
+<h1>What is final keyword?</h/1>
+<p>
+final keyword is used with Class to make sure no other class can extend it, for example String class is final and we can’t extend it.<br>
+
+</br>We can use final keyword with methods to make sure child classes can’t override it.<br>
+
+</br>final keyword can be used with variables to make sure that it can be assigned only once. However the state of the variable can be changed, for example we can assign a final variable to an object only once but the object variables can change later on.<br>
+
+</br>Java interface variables are by default final and static.
+<p>
+
+<h1>What is static keyword?</h/1>
+<p>
+static keyword can be used with class level variables to make it global i.e all the objects will share the same variable.</br>
+
+</br>static keyword can be used with methods also. A static method can access only static variables of class and invoke only static methods of the class.
+<p>
+
+<h1>What is try-with-resources in java?</h/1>
+<p>
+One of the Java 7 features is try-with-resources statement for automatic resource management. Before Java 7, there was no auto resource management and we should explicitly close the resource. Usually, it was done in the finally block of a try-catch statement. This approach used to cause memory leaks when we forgot to close the resource.
+<p>
+
+<h1>What is an interface?</h/1>
+<p>
+Interfaces are core part of java programming language and used a lot not only in JDK but also java design patterns, most of the frameworks and tools. Interfaces provide a way to achieve abstraction in java and used to define the contract for the subclasses to implement.</br>
+
+</br>Interfaces are good for starting point to define Type and create top level hierarchy in our code. Since a java class can implements multiple interfaces, it’s better to use interfaces as super class in most of the cases. 
+<p>
+
+
+</div>
+
+
+<div id="footer">
+ &copy; Copyright 2017 by Patil's Developer. 
+All Rights Reserved.
+  <ul>
+    <li><a href="">About JavaQuestion.com</a></li>
+    <li><a href="">Careers</a></li>
+    <li><a href="">Help</a></li>
+    <li><a href="">Contact Us</a></li>
+</div>
+</body>
+</html>
